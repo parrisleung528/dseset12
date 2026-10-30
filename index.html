@@ -26,8 +26,8 @@
     <header class="bg-blue-600 text-white shadow-md">
         <div class="max-w-4xl mx-auto px-4 py-6 text-center sm:text-left sm:flex sm:items-center sm:justify-between">
             <div>
-                <h1 class="text-2xl sm:text-3xl font-bold tracking-tight">DSE 中文十二篇章字詞解釋搜尋器</h1>
-                <p class="mt-2 text-blue-100 text-sm sm:text-base">輸入字詞，快速尋找原文出處與即時字典解釋</p>
+                <h1 class="text-2xl sm:text-3xl font-bold tracking-tight">DSE 中文十二篇章搜尋器</h1>
+                <p class="mt-2 text-blue-100 text-sm sm:text-base">輸入字詞，快速尋找原文出處與即時 AI 語譯</p>
             </div>
             <div class="mt-4 sm:mt-0 opacity-80 text-sm">
                 <span class="bg-blue-700 px-3 py-1 rounded-full">文憑試指定篇章</span>
@@ -50,8 +50,11 @@
                 >
                 <button 
                     type="submit"
-                    class="bg-blue-600 hover:bg-blue-700 text-white text-lg font-medium px-8 py-3 rounded-xl transition-colors shadow-sm whitespace-nowrap"
+                    class="bg-blue-600 hover:bg-blue-700 text-white text-lg font-medium px-8 py-3 rounded-xl transition-colors shadow-sm whitespace-nowrap flex items-center justify-center gap-2"
                 >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                    </svg>
                     搜尋原文
                 </button>
             </form>
@@ -77,7 +80,7 @@
 
     <!-- Footer -->
     <footer class="bg-slate-100 py-6 text-center text-slate-500 text-sm border-t border-slate-200">
-        <p>提供 DSE 中文溫習參考。字典解釋由外部網站 <a href="https://www.zdic.net/" target="_blank" class="text-blue-500 hover:underline">漢典 (Zdic)</a> 提供。</p>
+        <p>提供 DSE 中文溫習參考。字典解釋由外部網站 <a href="https://www.zdic.net/" target="_blank" class="text-blue-500 hover:underline">漢典 (Zdic)</a> 提供，AI 語譯由 DeepSeek 提供。</p>
     </footer>
 
     <script>
@@ -106,7 +109,7 @@
             {
                 title: "魚我所欲也",
                 author: "孟子",
-                content: `孟子曰:「魚,我所欲也,熊 অফিসে掌,亦我所欲也;二者不可得兼,舍魚而取熊掌者也。生亦我所欲也,義亦我所欲也;二者不可得兼,舍生而取義者也。生亦我所欲,所欲有甚於生者,故不為苟得也;死亦我所惡,所惡有甚於死者,故患有所不辟也。如使人之所欲莫甚於生,則凡可以得生者,何不用也?使人之所惡莫甚於死者,則凡可以辟患者,何不為也?由是則生而有不用也,由是則可以辟患而有不為也,是故所欲有甚於生者,所惡有甚於死者。非獨賢者有是心也,人皆有之,賢者能勿喪耳。
+                content: `孟子曰:「魚,我所欲也,熊掌,亦我所欲也;二者不可得兼,舍魚而取熊掌者也。生亦我所欲也,義亦我所欲也;二者不可得兼,舍生而取義者也。生亦我所欲,所欲有甚於生者,故不為苟得也;死亦我所惡,所惡有甚於死者,故患有所不辟也。如使人之所欲莫甚於生,則凡可以得生者,何不用也?使人之所惡莫甚於死者,則凡可以辟患者,何不為也?由是則生而有不用也,由是則可以辟患而有不為也,是故所欲有甚於生者,所惡有甚於死者。非獨賢者有是心也,人皆有之,賢者能勿喪耳。
 一簞食,一豆羹,得之則生,弗得則死。 爾而與之,行道之人弗受;蹴爾而與之,乞人不屑也;萬鍾則不辯禮義而受之。萬鍾於我何加焉?為宮室之美、妻妾之奉、所識窮乏者得我與?鄉為身死而不受,今為宮室之美為之;鄉為身死而不受,今為妻妾之奉為之;鄉為身死而不受,今為所識窮乏者得我而為之,是亦不可以已乎?此之謂失其本心。」`
             },
             {
@@ -174,7 +177,7 @@
                 title: "六國論",
                 author: "蘇洵",
                 content: `六國破滅,非兵不利,戰不善,弊在賂秦。賂秦而力虧,破滅之道也。或曰:「六國互喪,率賂秦耶?」曰:「不賂者以賂者喪。」蓋失強援,不能獨完,故曰「弊在賂秦」也。
-秦以攻取之外,小則獲邑,大則得城,較秦之所得與戰勝而得者,其實百倍;諸侯之所亡與戰敗而亡者,其實亦百倍。則秦之所大欲,諸侯之所大患,固不在戰矣。思厥先祖父,暴霜露,斬荊棘,以有尺寸之地。子孫視之不甚惜,舉以予人,如棄草芥。今日割五城,明日割十城,然後得一夕安寢;起視四境,而秦兵又至矣。然則諸侯之地有限,暴秦之欲無厭,奉之彌繁,侵之愈急,故不戰而強弱勝負已判矣。至於顛覆,理固宜然。古人云:「以地事秦,猶抱薪救火,薪不盡,火不滅。」此言得之。
+秦以攻取之外,小則獲邑,大則得城,較秦之所得與戰勝而得者,其實百倍;諸侯之所亡與戰敗而亡者,其實亦百倍。則秦之所大欲,諸侯之所大患,固不在戰矣。思厥先祖父,暴霜露,解荊棘,以有尺寸之地。子孫視之不甚惜,舉以予人,如棄草芥。今日割五城,明日割十城,然後得一夕安寢;起視四境,而秦兵又至矣。然則諸侯之地有限,暴秦之欲無厭,奉之彌繁,侵之愈急,故不戰而強弱勝負已判矣。至於顛覆,理固宜然。古人云:「以地事秦,猶抱薪救火,薪不盡,火不滅。」此言得之。
 齊人未嘗賂秦,終繼五國遷滅,何哉?與贏而不助五國也。五國既喪,齊亦不免矣。燕趙之君,始有遠略,能守其土,義不賂秦。是故燕雖小國而後亡,斯用兵之效也。至丹以荊卿為計,始速禍焉。趙嘗五戰于秦,二敗而三勝;後秦擊趙者再,李牧連卻之;泊牧以讒誅,邯鄲為郡,惜其用武而不終也。且燕趙處秦革滅殆盡之際,可謂智力孤危,戰敗而亡,誠不得已。向使三國各愛其地,齊人勿附於秦,刺客不行,良將猶在,則勝負之數,存亡之理,當與秦相較,或未易量。
 嗚呼!以賂秦之地,封天下之謀臣;以事秦之心,禮天下之奇才:并力西嚮,則吾恐秦人食之不得下嚥也。悲夫!有如此之勢,而為秦人積威之所劫,日削月割,以趨於亡!為國者無使為積威之所劫哉!
 夫六國與秦皆諸侯,其勢弱於秦,而猶有可以不賂而勝之之勢;苟以天下之大,而從六國破亡之故事,是又在六國下矣!`
@@ -205,10 +208,6 @@
         const input = document.getElementById('searchInput');
         const resultsContainer = document.getElementById('resultsContainer');
         const dictAction = document.getElementById('dictAction');
-
-        // Regex used to split long text into conversational/poetic sentences
-        // Matches anything that isn't punctuation, followed by punctuation.
-        // It helps to isolate context for search results.
         const sentenceSplitter = /[^。！？!\?；;\n]+[。！？!\?；;\n]?/g;
 
         form.addEventListener('submit', (e) => {
@@ -221,21 +220,15 @@
         });
 
         function performSearch(keyword) {
-            resultsContainer.innerHTML = ''; // clear previous
-            
-            // Protect against Regex injections by escaping special characters
+            resultsContainer.innerHTML = '';
             const safeKeyword = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-            // Use negative lookahead (?![^《]*》) to ignore keywords that are inside 《》
             const searchRegex = new RegExp(safeKeyword + '(?![^《]*》)', 'gi');
 
             let totalMatches = 0;
             const results = [];
 
-            // Iterate through our DB
             textsDatabase.forEach(textObj => {
-                // Split content into reasonable "sentences"
                 const sentences = textObj.content.match(sentenceSplitter) || [];
-                
                 sentences.forEach(sentence => {
                     if (sentence.match(searchRegex)) {
                         results.push({
@@ -248,7 +241,6 @@
                 });
             });
 
-            // Display Results
             if (totalMatches === 0) {
                 resultsContainer.innerHTML = `
                     <div class="bg-red-50 text-red-600 p-6 rounded-xl border border-red-100 text-center shadow-sm">
@@ -259,39 +251,38 @@
                 return;
             }
 
-            // Summary Header
             const summaryDiv = document.createElement('div');
             summaryDiv.className = 'text-slate-600 font-medium pb-2 border-b border-slate-200 mt-2';
             summaryDiv.innerText = `找到 ${totalMatches} 個包含「${keyword}」的句子：`;
             resultsContainer.appendChild(summaryDiv);
 
-            // Create Cards for matches
-            results.forEach(res => {
-                // Highlight keyword
+            results.forEach((res) => {
                 const highlightedHtml = res.originalText.replace(
                     searchRegex, 
                     (match) => `<mark>${match}</mark>`
                 );
+                
+                // 為每一句建立一個獨立的 ID 裝載翻譯結果
+                const resultId = 'translation-' + Math.random().toString(36).substr(2, 9);
+                const safeOriginalText = res.originalText.replace(/'/g, "\\'"); // 防止單引號破壞 HTML
 
                 const card = document.createElement('div');
-                card.className = 'bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow';
-                
-                // Safe string for HTML attributes
-                const safeOriginalText = res.originalText.replace(/"/g, '&quot;');
-                // Generate a smart Google Search query for the translation
-                const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(res.title + ' ' + res.originalText + ' 語譯')}`;
+                card.className = 'bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row sm:items-start justify-between gap-4';
 
                 card.innerHTML = `
-                    <div class="flex items-center gap-2 mb-3">
-                        <span class="bg-indigo-100 text-indigo-700 text-xs font-bold px-2 py-1 rounded">《${res.title}》</span>
-                        <span class="text-slate-500 text-sm font-medium border-l border-slate-300 pl-2">${res.author}</span>
+                    <div class="flex-grow w-full">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="bg-indigo-100 text-indigo-700 text-xs font-bold px-2 py-1 rounded">《${res.title}》</span>
+                            <span class="text-slate-500 text-sm font-medium border-l border-slate-300 pl-2">${res.author}</span>
+                        </div>
+                        <p class="text-lg text-slate-800 leading-relaxed mb-1">${highlightedHtml}</p>
+                        <!-- AI 翻譯結果顯示區塊 (預設隱藏) -->
+                        <div id="${resultId}" class="hidden w-full transition-all duration-300"></div>
                     </div>
-                    <p class="text-lg text-slate-800 leading-relaxed mb-4">${highlightedHtml}</p>
-                    
-                    <a href="${googleSearchUrl}" target="_blank" rel="noopener noreferrer" class="text-sm text-indigo-700 hover:text-indigo-900 flex items-center gap-1.5 font-medium transition-colors bg-indigo-50 hover:bg-indigo-100 px-3 py-1.5 rounded-lg border border-indigo-100 w-fit">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg> 
-                        用 Google 搜尋此句語譯
-                    </a>
+                    <button onclick="translateWithDeepSeek('${safeOriginalText}', '${resultId}', this)" class="shrink-0 mt-2 sm:mt-0 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors flex items-center justify-center gap-2 shadow-sm whitespace-nowrap self-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                        AI 即時語譯
+                    </button>
                 `;
                 resultsContainer.appendChild(card);
             });
@@ -300,7 +291,6 @@
         function setupDictionaryLink(keyword) {
             dictAction.classList.remove('hidden');
             
-            // 防呆機制：判斷是否輸入了太長的句子
             if (keyword.length > 4) {
                 dictAction.innerHTML = `
                     <div class="bg-amber-50 p-5 rounded-xl border border-amber-200 mt-6 shadow-sm">
@@ -308,13 +298,12 @@
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg>
                             提示：您搜尋的字數較多
                         </div>
-                        <p class="text-amber-700 text-sm leading-relaxed">「${keyword}」似乎是一整句文言文。<br>字典庫通常只收錄單字或詞語（如「仁」、「君子」）。<br>💡 <b>若要尋找整句語譯，請直接點擊下方搜尋結果中的「用 Google 搜尋此句語譯」按鈕！</b></p>
+                        <p class="text-amber-700 text-sm leading-relaxed">「${keyword}」似乎是一整句文言文。<br>字典通常只收錄單字或詞語（如「仁」、「君子」）。<br>💡 <b>若要尋找整句語譯，請直接點擊下方搜尋結果中的「AI 即時語譯」按鈕！</b></p>
                     </div>
                 `;
                 return;
             }
             
-            // 恢復漢典 (Zdic) 外部連結
             const encodedKeyword = encodeURIComponent(keyword);
             const zdicUrl = `https://www.zdic.net/hans/${encodedKeyword}`;
 
@@ -331,6 +320,99 @@
                     </a>
                 </div>
             `;
+        }
+
+        // ==========================================
+        // 🔑 請在下方替換成你剛剛拿到的 DeepSeek API Key 
+        // ==========================================
+        const MY_DEEPSEEK_API_KEY = "sk-c7ec752907594888aea18649ce4286fc"; 
+
+        // 呼叫 DeepSeek AI 翻譯的函數
+        async function translateWithDeepSeek(text, resultId, buttonElement) {
+            const outputDiv = document.getElementById(resultId);
+            
+            // 改變按鈕狀態成「載入中」
+            buttonElement.disabled = true;
+            buttonElement.innerHTML = `<svg class="animate-spin -ml-1 mr-2 h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg> 翻譯中...`;
+            
+            // 顯示載入動畫
+            outputDiv.classList.remove('hidden');
+            outputDiv.innerHTML = `<div class="mt-4 p-4 bg-slate-50 border border-slate-100 rounded-lg text-slate-500 text-sm animate-pulse flex items-center gap-2">正在呼叫 DeepSeek AI 生成語譯...</div>`;
+
+            if (!MY_DEEPSEEK_API_KEY || MY_DEEPSEEK_API_KEY.includes("請把你的")) {
+                outputDiv.innerHTML = `<div class="mt-4 p-4 bg-red-50 text-red-600 border border-red-100 rounded-lg text-sm font-medium">⚠️ 錯誤：老師尚未在系統代碼中設定 API Key，無法翻譯。</div>`;
+                buttonElement.innerHTML = `AI 即時語譯`;
+                buttonElement.disabled = false;
+                return;
+            }
+
+            try {
+                // 使用 CORS Proxy (中轉站過海隧道) 來繞過 DeepSeek 的瀏覽器阻擋
+                const targetUrl = 'https://api.deepseek.com/v1/chat/completions';
+                const proxyUrl = 'https://corsproxy.io/?' + encodeURIComponent(targetUrl);
+
+                // 發送請求給 DeepSeek (透過中轉站)
+                const response = await fetch(proxyUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${MY_DEEPSEEK_API_KEY}`
+                    },
+                    body: JSON.stringify({
+                        model: 'deepseek-chat',
+                        messages: [
+                            { role: 'system', content: '你是一個專業的香港 DSE 中文科老師。請將以下的文言文句子翻譯成通順的現代標準漢語（白話文），要求準確、優美，符合 DSE 考試標準。請直接輸出翻譯結果，不要加上任何解釋或引言。' },
+                            { role: 'user', content: text }
+                        ],
+                        temperature: 0.3 
+                    })
+                });
+
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    console.error("DeepSeek 錯誤詳情:", errorText);
+                    if (response.status === 401) throw new Error("API Key 不正確，請重新檢查密碼是否複製完整。");
+                    if (response.status === 402) throw new Error("帳號額度不足，或需要到 DeepSeek 網站完成手機綁定/儲值。");
+                    if (response.status === 429) throw new Error("請求太頻繁，請稍後再試。");
+                    throw new Error(`連線失敗 (代碼: ${response.status})，請檢查網絡或 API 狀態。`);
+                }
+
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error.message || 'API 內部錯誤');
+                }
+
+                const translation = data.choices[0].message.content;
+                
+                outputDiv.innerHTML = `
+                    <div class="mt-4 p-5 bg-indigo-50 rounded-xl border border-indigo-100 relative shadow-inner">
+                        <div class="absolute -top-3 left-4 bg-indigo-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" /></svg>
+                            DeepSeek AI 語譯
+                        </div>
+                        <p class="text-slate-700 mt-2 leading-relaxed font-medium">${translation}</p>
+                    </div>
+                `;
+                buttonElement.classList.add('hidden'); 
+            } catch (error) {
+                console.error("Fetch 發生錯誤:", error);
+                
+                // 處理瀏覽器阻擋 (CORS) 或完全斷線的問題
+                let errorMessage = error.message;
+                if (errorMessage.includes("Failed to fetch") || errorMessage.includes("Load failed")) {
+                    errorMessage = "瀏覽器安全阻擋 (CORS) 或網絡不穩，無法直接從網頁發出請求。";
+                }
+
+                outputDiv.innerHTML = `<div class="mt-4 p-4 bg-red-50 text-red-700 border border-red-200 rounded-lg text-sm font-medium">
+                    ❌ <b>翻譯失敗</b><br>
+                    原因：${errorMessage}<br>
+                    <span class="text-red-500 text-xs mt-1 block">請截圖這個紅色框框，告訴我詳細原因！</span>
+                </div>`;
+                
+                buttonElement.innerHTML = `重試 AI 語譯`;
+                buttonElement.disabled = false;
+            }
         }
     </script>
 </body>
